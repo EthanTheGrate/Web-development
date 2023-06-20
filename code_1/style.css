@@ -1,0 +1,26 @@
+body{
+    background-color: chocolate;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    color: aquamarine;
+    background-color: chocolate;
+}
+
+p{
+    background-color: chocolate;
+    text-align: center;
+    font-size: 30px;
+}
+
+li{
+    background-color: chocolate;
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    color: red;
+}
