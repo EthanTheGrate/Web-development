@@ -22,3 +22,9 @@
 * margin(nothing/left/right/etc.): changes margin size
 * padding(nothing/left/right/etc.): changes padding size
 * text-align: changes the align area
+### Github commands
+* git status (check color)
+* red: git add .
+* green: git commit -m "lorem ipsum"
+* white: git push
+* yellow: git pull
