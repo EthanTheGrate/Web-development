@@ -28,3 +28,7 @@
 * green: git commit -m "lorem ipsum"
 * white: git push
 * yellow: git pull
+### Shortcut keys
+* ctrl + /: makes things a comment
+* alt + up/down: moves things up or down
+* alt(hold) + click: adds/removes extra cursor
