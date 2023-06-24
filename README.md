@@ -32,3 +32,5 @@
 * ctrl + /: makes things a comment
 * alt + up/down: moves things up or down
 * alt(hold) + click: adds/removes extra cursor
+* tab: autocomplete
+* up/down: previous commands
