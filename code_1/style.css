@@ -1,27 +1,27 @@
 body{
-    background-color: rgb(210, 105, 30);
+    background-color: #D2691E;
 }
 
 h1{
     text-align: center;
     text-decoration-line: underline;
-    color: rgb(127, 255, 212);
-    background-color: rgb(210, 105, 30);
-    border: 4px solid rgb(255, 0, 0);
+    color: #7FFFD4;
+    background-color: #D2691E;
+    border: 4px solid #FF0000;
 }
 
 p{
-    background-color: rgb(210, 105, 30);
+    background-color: #D2691E;
     text-align: center;
     font-size: 30px;
 }
 
 li{
-    background-color: rgb(210, 105, 30);
+    background-color: #D2691E;
     text-align: center;
     font-size: 30px;
 }
 
 a{
-    color: rgb(255, 0, 0);
+    color: #FF0000;
 }
