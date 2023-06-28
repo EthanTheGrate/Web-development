@@ -35,6 +35,6 @@
 * tab: autocomplete
 * up/down: previous commands
 ### HTML Displays
-* block: takes up a whole line
+* block: takes up a whole line, uses height/width, and uses margin and padding
 * inline: only takes required space (space taken can be increased with margin and padding + ignores height/width)
 * inline-block: only takes required space AND uses height/width
