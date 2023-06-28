@@ -37,3 +37,4 @@
 ### HTML Displays
 * block: takes up a whole line
 * inline: only takes required space (space taken can be increased with margin and padding + ignores height/width)
+* inline-block: only takes required space AND uses height/width
