@@ -1,3 +1,12 @@
 body{
     background-color: darkblue;
 }
+
+.superspeciallink{
+    color: #007185;
+    text-decoration: none;
+}
+
+.superspeciallink:hover{
+    color: #c87312;
+}
