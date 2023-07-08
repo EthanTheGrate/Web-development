@@ -5,8 +5,18 @@ body{
 .superspeciallink{
     color: #007185;
     text-decoration: none;
+    padding-top: 200px;
 }
 
 .superspeciallink:hover{
     color: #c87312;
+}
+
+#cttis{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#getlink{
+    margin-top: 20px;
 }
