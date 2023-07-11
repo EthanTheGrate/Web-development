@@ -15,6 +15,8 @@
 * & nbsp;: puts a space
 * br: puts an enter
 ### CSS tags
+* .: class targeter
+* #: id targeter
 * font-size: changes text size
 * color: changes text color
 * background-color: changes background color (changes the whole page background if used on body)
@@ -38,3 +40,18 @@
 * block: takes up a whole line, uses height/width, and uses margin and padding
 * inline: only takes required space (space taken can be increased with margin and padding + ignores height/width)
 * inline-block: only takes required space AND uses height/width
+### Bootstrap colors
+* Primary: Blue
+* Secondary: Gray
+* Success: Green
+* Danger: Red
+* Warning: Yellow
+* Info: Teal
+* Light: White
+* Dark: Black
+### Bootstrap Border
+* class="border": makes border
+* class="border border-5": makes thicc border
+* class="border border-1": makes thin border
+* class="border border-danger": makes red border
+* class="border border-5 border-danger" makes thicc red border
