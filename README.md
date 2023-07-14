@@ -55,3 +55,7 @@
 * class="border border-1": makes thin border
 * class="border border-danger": makes red border
 * class="border border-5 border-danger" makes thicc red border
+### Javascript Variable Rules
+* Uppercase and lowercase don't really matter
+* Number is never first
+* Underscores (_) and Dollar Sign ($) can be put anywhere
