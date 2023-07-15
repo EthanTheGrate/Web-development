@@ -59,3 +59,13 @@
 * Uppercase and lowercase don't really matter
 * Number is never first
 * Underscores (_) and Dollar Sign ($) can be put anywhere
+* Let: Makes variable
+* Const: Makes unchangable variable
+* Var: Makes variable
+### Javascript Variable Types
+* number: just numbers (decimals too)
+* undefined: dont put any value
+* null: put no value (you have to put null in)
+* bigint: way too big number
+* string: letters and words (they have to be inside quotation marks)
+* boolean: basically bool (true and false)
