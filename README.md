@@ -71,3 +71,9 @@
 * boolean: basically bool (true and false)
 ### How to variable
 * all assignment operator expressions execute from right to left
+### Assignment Operators
+* =: sets variable
+* +=: adds to variable
+* -=: subtracts from variable
+* *=: multiplies into variable
+* /=: divides from variable
