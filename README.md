@@ -69,3 +69,5 @@
 * bigint: way too big number
 * string: letters and words (they have to be inside quotation marks)
 * boolean: basically bool (true and false)
+### How to variable
+* all assignment operator expressions execute from right to left
