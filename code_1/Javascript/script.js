@@ -1,6 +1,4 @@
-document.querySelector(".heading").textContent="AAAAA";
-
-document.querySelector("#head").textContent="Age: 52";
+document.querySelector("#head").textContent="Why Celina should die";
 
 console.log("lorem ipsum");
 
@@ -118,3 +116,8 @@ else if(z == 0 && y == 5){
 else{
     console.log("Default value");
 }
+
+document.querySelector(".body").style.backgroundColor = "green";
+document.querySelector("#head").style.color = "blue";
+
+document.querySelector("#growtext").textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua. Ut enim ad minim veniam aute irure dolor in reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint occaecat cupid laboration, sunt in culpa qui officia deserunt mollit anim id est laborum.";
