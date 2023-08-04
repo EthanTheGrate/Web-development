@@ -3,3 +3,14 @@
     #00000000, #000000c9), linear-gradient(to bottom, 
     #00000000, #000000c9), url("imgaes/wtfnexftis.jpg");
 }
+
+.netfixlogo{
+    margin: 25px;
+    margin-top: 15px;
+}
+
+.languagething{
+    height: 25px;
+    border-radius: 30%;
+    width: 150px;
+}
