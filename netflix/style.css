@@ -7,10 +7,43 @@
 .netfixlogo{
     margin: 25px;
     margin-top: 15px;
+    margin-left: 100px;
 }
 
 .languagething{
-    height: 25px;
-    border-radius: 30%;
-    width: 150px;
+    font-size: 17px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background: transparent;
+    margin-left: 850px;
+    margin-right: 20px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 5%;
+}
+
+.signin{
+    height: 35px;
+    width: 75px;
+    background-color: red;
+    border-radius: 10%;
+    color: white;
+}
+
+.bigtext{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.watchtext{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ready{
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
