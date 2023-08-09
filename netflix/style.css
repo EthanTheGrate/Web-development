@@ -12,14 +12,14 @@
 
 .languagething{
     font-size: 17px;
-    height: 40px;
-    width: 120px;
+    height: 35px;
+    width: 110px;
     color: white;
     background: transparent;
     margin-left: 850px;
     margin-right: 20px;
     border: 2px solid rgba(255, 255, 255, 1);
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 .signin{
@@ -55,7 +55,7 @@
     width: 400px;
     font-size: 18px;
     margin-right: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 1);
 }
 
