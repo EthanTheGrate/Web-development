@@ -1,25 +1,37 @@
-isuppercase = bool(input("With uppercase letters?"))
-isnumbers = bool(input("With numbers?"))
-issymbols = bool(input("With symbols?"))
-length = int(input("How many characters do you want?"))
+# isuppercase = bool(input("With uppercase letters?"))
+# isnumbers = bool(input("With numbers?"))
+# issymbols = bool(input("With symbols?"))
+# length = int(input("How many characters do you want?"))
 
-print(isuppercase)
-print(isnumbers)
-print(issymbols)
+# print(isuppercase)
+# print(isnumbers)
+# print(issymbols)
+# import random
+# def generate_password():
+#     choices = list("abcdefghijkmlopqrstuvxyz")
+
+#     if isuppercase == True:
+#         choices.extend("ABCDEFGHIJKLMOPQRSTUVWXYZ")
+#     if isnumbers == True:
+#         choices.extend("0123456789")
+#     if issymbols == True:
+#         choices.extend('''"'[]|\~!@#{}$/%^&*()_-+=<>,.:;?''')
+
+#     mypassword = ""
+#     for i in range(length):
+#         mypassword += random.choice(choices)
+
+#     print(mypassword)
+# generate_password()
+
 import random
-def generate_password():
-    choices = list("abcdefghijkmlopqrstuvxyz")
+from flask import render_template, Flask
 
-    if isuppercase == True:
-        choices.extend("ABCDEFGHIJKLMOPQRSTUVWXYZ")
-    if isnumbers == True:
-        choices.extend("0123456789")
-    if issymbols == True:
-        choices.extend('''"'[]|\~!@#{}$/%^&*()_-+=<>,.:;?''')
+app = Flask(__name__)
 
-    mypassword = ""
-    for i in range(length):
-        mypassword += random.choice(choices)
+@app.route('/')
+def index():
+    return render_template('home.html')
 
-    print(mypassword)
-generate_password()
+if __name__ == '__main__':
+    app.run()
