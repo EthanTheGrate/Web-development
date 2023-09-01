@@ -24,14 +24,19 @@
 #     print(mypassword)
 # generate_password()
 
-import random
-from flask import render_template, Flask
+import random 
+from flask import render_template, Flask 
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return render_template('home.html')
+
+@app.route('/fill_form')
+def fill_form():
+    return render_template('fill_form.html')
+
 
 if __name__ == '__main__':
     app.run()
