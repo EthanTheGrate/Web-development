@@ -18,7 +18,7 @@ def submit():
 
 @app.route('/thank_you')
 def thank_you():
-    return "Celina is a loser"
+    return "Celina is a mistake"
 
 if __name__ == '__main__':
     app.run()
