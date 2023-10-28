@@ -18,7 +18,7 @@ def quiz():
             return "correct! paris is the capital of france"
         else:
             return "incorrect! try again!"
-    return render_template('quiz.html', question=quiz_options, options=quiz_options)
+    return render_template('quiz.html', question=quiz_question, options=quiz_options)
 
 if __name__ == '__main__':
     app.run(debug=True)
