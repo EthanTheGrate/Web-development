@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+</head>
+<body>
+    <h1>{{question}}</h1>
+    <form method="post">
+        <ul>
+            {% for option in options%}
+                <li>
+                    <input type="radio" name="answer" value="{{option}}"
+                    {{option}}
+                </li>
+            {% endfor %}
+        </ul>
+        <button type="submit">Submit Answer</button>
+    </form>
+</body>
+</html>
