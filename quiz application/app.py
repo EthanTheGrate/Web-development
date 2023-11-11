@@ -20,6 +20,17 @@ questions=[
     }
 ]
 
+leaderboard_list = [
+    {'username' : 'Baodan', 'score' : 69},
+    {'username' : 'Ethan', 'score' : 100},
+    {'username' : 'Celina', 'score' : 45},
+    {'username' : 'Angelina', 'score' : 89}
+]
+
+@app.route('/leaderboard')
+def leaderboard():
+    return render_template('leaderboard.html', leaderboard=leaderboard_list)
+
 score = 0
 current_question = 0
 
